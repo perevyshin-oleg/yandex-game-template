@@ -37,14 +37,14 @@ namespace YGameTemplate.Infrastructure.StateMachine
         private async void OnLoaded()
         {
             _sceneContainer = GetSceneContainer();
-            await InstantiateHUDAsync();
+            //await InstantiateHUDAsync();
 
             _gameStateMachine.Enter<GameLoopState, DiContainer>(_sceneContainer);
         }
 
         public void Exit()
         {
-            _curtain.HideCurtain();
+            //_curtain.HideCurtain();
         }
 
         private async UniTask ShowCurtain()
