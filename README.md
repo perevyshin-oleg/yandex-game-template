@@ -1,0 +1,2 @@
+# yandex-game-template
+ 
